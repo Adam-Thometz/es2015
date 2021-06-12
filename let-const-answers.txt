@@ -1,0 +1,15 @@
+1. Var and let
+
+	Var variables have a function scope, and can be redeclared while let variables cannot be redeclared and each declaration is limited to the code block that it's declared in.
+
+2. Var and const
+
+	Var variables can be reassigned, redeclared, and has a function scope while const variables cannot be reassigned or redeclared and are limited to the code block that they're declared in
+
+3. Let and const
+
+	Let variables can be reassigned while const variables cannot.
+
+4. Hoisting
+
+	Hoisting is when variables are treated as though they have been declared at the beginning of the code but they are not given the value until that declaration is reached. This is because var-declared variables are added to the window object. Functions are also hoisted.
